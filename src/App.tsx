@@ -1,23 +1,12 @@
-import React, { useState } from "react";
-import styled from "styled-components";
 import { Navigation } from "./components/Navigation";
 import { Routes } from "./routes/Routes";
-import { GlobalStyle } from "./shared/styles/GlobalStyles";
-
+import "./App.css";
 export const App = () => {
   return (
-    <Wrapper>
-      <GlobalStyle/>
-        <Routes>
-          <Navigation/>
-        </Routes>
-
-    </Wrapper>
+    <div className="wrapper">
+      <Routes>
+        <Navigation />
+      </Routes>
+    </div>
   );
 };
-
-
-const Wrapper = styled.div`
-height: 100vh;
-width: 100vw;
-`

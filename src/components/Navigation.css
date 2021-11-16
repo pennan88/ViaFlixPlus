@@ -1,0 +1,76 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.123);
+}
+
+.innerHeader {
+  justify-content: space-around;
+  display: flex;
+  width: 95%;
+}
+
+.brand {
+  /* border: 1px black solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 68px;
+}
+.brand img {
+  width: 92px;
+  height: 31px;
+}
+
+.navList {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  margin-left: 20px;
+  /* border: 1px black solid; */
+}
+.navItem {
+  color: rgb(218, 216, 216);
+  margin: 0 5px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.2s color ease-in;
+}
+.navItem:hover {
+  color: grey;
+}
+
+.navItem:active {
+  color: white;
+}
+
+.navListTwo {
+  /* border: 1px black solid; */
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.icon {
+  width: 22px;
+  height: 22px;
+  color: white;
+  margin: 15px;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.tinyArrow {
+  color: white;
+  transform: rotateX(180deg);
+  height: 25px;
+  width: 15px;
+}

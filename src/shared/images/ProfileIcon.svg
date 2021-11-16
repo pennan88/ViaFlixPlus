@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-Custom_Size_1">
+      <rect width="30" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="Custom_Size_1" data-name="Custom Size – 1" clip-path="url(#clip-Custom_Size_1)">
+    <rect width="30" height="30" fill="#989898"/>
+    <g id="Path_1" data-name="Path 1" transform="translate(6 7)" fill="#2cf35b">
+      <path d="M 6.5 4.5 L 0.5 4.5 L 0.5 0.5 L 6.5 0.5 L 6.5 4.5 Z" stroke="none"/>
+      <path d="M 1 1 L 1 4 L 6 4 L 6 1 L 1 1 M 0 0 L 7 0 L 7 5 L 0 5 L 0 0 Z" stroke="none" fill="#707070"/>
+    </g>
+    <g id="Path_2" data-name="Path 2" transform="translate(18 7)" fill="#2cf35b">
+      <path d="M 6.5 4.5 L 0.5 4.5 L 0.5 0.5 L 6.5 0.5 L 6.5 4.5 Z" stroke="none"/>
+      <path d="M 1 1 L 1 4 L 6 4 L 6 1 L 1 1 M 0 0 L 7 0 L 7 5 L 0 5 L 0 0 Z" stroke="none" fill="#707070"/>
+    </g>
+    <g id="Path_3" data-name="Path 3" transform="translate(5 19)" fill="#fe4545">
+      <path d="M 20.5 5.5 L 0.5 5.5 L 0.5 0.5 L 20.5 0.5 L 20.5 5.5 Z" stroke="none"/>
+      <path d="M 1 1 L 1 5 L 20 5 L 20 1 L 1 1 M 0 0 L 21 0 L 21 6 L 0 6 L 0 0 Z" stroke="none" fill="#707070"/>
+    </g>
+  </g>
+</svg>

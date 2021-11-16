@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="83" height="30" viewBox="0 0 83 30">
+  <g id="Group_1" data-name="Group 1" transform="translate(-57 -79)">
+    <text id="VIA" transform="translate(57 104)" fill="red" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">VIA</tspan></text>
+    <text id="FLIX" transform="translate(88 104)" fill="#fff" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">FLIX</tspan></text>
+    <text id="_" data-name="+" transform="translate(124 103)" fill="#0008ff" font-size="22" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">+</tspan></text>
+  </g>
+</svg>
