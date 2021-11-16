@@ -1,7 +1,8 @@
 import { useNavigate } from "react-router-dom";
 import RoutingPath from "../routes/RoutingPath";
 import "./Navigation.css";
-import logo from "../shared/images/Group 1.svg";
+// import logo from "../shared/images/Group 1.svg";
+import logo from "../shared/images/logo.png";
 import profileIcon from "../shared/images/ProfileIcon.svg";
 
 import { GiMagnifyingGlass } from "react-icons/gi";

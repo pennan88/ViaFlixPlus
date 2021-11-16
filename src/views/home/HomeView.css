@@ -1,0 +1,106 @@
+.heroWrapper {
+  min-height: 100vh;
+  width: 100vw;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.mainImageContainer {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+}
+.mainImage {
+  width: inherit;
+  height: 90%;
+  z-index: 1;
+}
+
+.mainContentContainer {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  z-index: 20;
+}
+.mainInnerContentContainer {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.movieDescription {
+  z-index: 20;
+  height: fit-content;
+  max-width: 700px;
+  margin-top: 50px;
+}
+
+.movieDescription p {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.btnContainer {
+  display: flex;
+  align-self: flex-start;
+  margin-bottom: 150px;
+  min-width: 500px;
+  margin-top: 30px;
+}
+
+.btn {
+  background-color: white;
+  height: 55px;
+  width: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.btn-info {
+  background-color: rgba(128, 128, 128, 0.849);
+  color: white;
+}
+
+.btn-play {
+  margin-right: 50px;
+}
+
+.outerContentContainer {
+  border: 1px black solid;
+}
+
+.genreContainer {
+  margin: 5px 0;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.genreTag {
+  font-weight: bolder;
+  font-size: 30px;
+  color: white;
+  margin: 10px 0;
+}
+.imageOuterContainer {
+  display: flex;
+}
+.imageInnerContainer {
+  width: 298px;
+  height: 160px;
+  display: flex;
+  margin: 0 3px;
+}
+
+.imageInnerContainer img {
+  width: inherit;
+  height: inherit;
+}
