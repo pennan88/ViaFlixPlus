@@ -1,14 +1,14 @@
-import "./HomeView.css";
+import axios from "axios";
+import { useEffect, useState } from "react";
+import { MovieRow } from "../../components/MovieRow";
 // import mainImage from "../../shared/images/PacifigRim.jpg";
 import mainImage from "../../shared/images/central.jpg";
 import movieLogo from "../../shared/images/Centrallogo.png";
 import placeholader from "../../shared/images/placeholder.png";
-import { useEffect, useState } from "react";
-import axios from "axios";
+import "./HomeView.css";
 
 export const HomeView = () => {
   const [genre, setGenre] = useState() as any;
-  const [isLoaded, setIsload] = useState(false);
   var options = {
     method: "GET",
     url: "https://imdb8.p.rapidapi.com/title/list-popular-genres",
@@ -23,7 +23,6 @@ export const HomeView = () => {
       axios
         .request(options)
         .then(function (response) {
-          setIsload(true);
           setGenre(response.data.genres);
         })
         .catch(function (error) {
@@ -37,12 +36,12 @@ export const HomeView = () => {
   return (
     <div className="heroWrapper">
       <div className="mainImageContainer">
-        <img className="mainImage" src={mainImage}></img>
+        <img className="mainImage" alt="error" src={mainImage}></img>
       </div>
       <div className="mainContentContainer">
         <div className="mainInnerContentContainer">
           <div className="movieLogo">
-            <img src={movieLogo}></img>
+            <img src={movieLogo} alt="error"></img>
           </div>
           <div className="movieDescription">
             <p>
@@ -65,29 +64,8 @@ export const HomeView = () => {
           {/* <p>{genre?.[0].description}</p> */}
           {genre?.map((value: any, i: any) => {
             return (
-              <div key={i} className="genreContainer">
-                <p className="genreTag">{value?.description}</p>
-                <div className="imageOuterContainer">
-                  <div className="imageInnerContainer">
-                    <img src={placeholader} />
-                  </div>
-                  <div className="imageInnerContainer">
-                    <img src={placeholader} />
-                  </div>
-                  <div className="imageInnerContainer">
-                    <img src={placeholader} />
-                  </div>
-                  <div className="imageInnerContainer">
-                    <img src={placeholader} />
-                  </div>
-                  <div className="imageInnerContainer">
-                    <img src={placeholader} />
-                  </div>
-                  <div className="imageInnerContainer">
-                    <img src={placeholader} />
-                  </div>
-                </div>
-              </div>
+              <MovieRow image={placeholader} key={i} value={value} />
+              
             );
           })}
         </div>

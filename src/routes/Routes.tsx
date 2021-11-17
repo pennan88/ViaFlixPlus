@@ -1,8 +1,5 @@
 import {
-  BrowserRouter,
-  Routes as Switch,
-  Route,
-  Navigate,
+  BrowserRouter, Route, Routes as Switch
 } from "react-router-dom";
 import { HomeView } from "../views/home/HomeView";
 import { MoviesView } from "../views/movies/MoviesView";
