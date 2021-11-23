@@ -19,12 +19,12 @@ export const Navigation = () => {
         </div>
 
         <div className="navList">
-          <p className="navItem" onClick={() => navigate(RoutingPath.homeView)}>
+          <p className="navItem" onClick={() => navigate(RoutingPath.browseView)}>
             Hem
           </p>
           <p
             className="navItem"
-            onClick={() => navigate(RoutingPath.movieView)}
+            onClick={() => navigate(RoutingPath.seriesView)}
           >
             Serier
           </p>
@@ -36,19 +36,19 @@ export const Navigation = () => {
           </p>
           <p
             className="navItem"
-            onClick={() => navigate(RoutingPath.movieView)}
+            onClick={() => navigate(RoutingPath.lastetView)}
           >
             Nytt och populärt
           </p>
           <p
             className="navItem"
-            onClick={() => navigate(RoutingPath.movieView)}
+            onClick={() => navigate(RoutingPath.listView)}
           >
             Min lista
           </p>
           <p
             className="navItem"
-            onClick={() => navigate(RoutingPath.movieView)}
+            onClick={() => navigate(RoutingPath.watchAgainView)}
           >
             Titta igen
           </p>

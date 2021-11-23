@@ -8,6 +8,8 @@
     "@testing-library/user-event": "^12.1.10",
     "@types/axios": "^0.14.0",
     "axios": "^0.24.0",
+    "pokemon-images": "^2.0.1",
+    "pokesprite-images": "^2.5.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",

@@ -1,7 +1,7 @@
+import "./MoiveView.css"
 export const MoviesView = () => {
-    return (
-        <div className="heroWrapper">
-            <p>movies</p>
-        </div>
-    )
-}
+  return (
+    <div className="heroWrapper">
+    </div>
+  );
+};

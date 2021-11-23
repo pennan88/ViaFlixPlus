@@ -10,3 +10,14 @@
   max-width: 100vw;
   background-color: rgb(31, 31, 31);
 }
+
+
+.div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div p {
+  color: white;
+}

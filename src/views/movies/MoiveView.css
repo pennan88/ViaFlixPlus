@@ -1,0 +1,16 @@
+.apiWrapper{
+    border: 1px red solid;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pokeRow{
+    border: 1px green solid;
+    display: flex;
+    justify-content: center;
+    word-wrap: break-word   ;
+    word-break: break-all;
+}

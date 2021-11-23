@@ -59,6 +59,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   font-weight: bold;
   border-radius: 10px;
   font-size: 20px;
@@ -67,10 +68,35 @@
 .btn-info {
   background-color: rgba(128, 128, 128, 0.849);
   color: white;
+  cursor: pointer;
+
+}
+
+.btn-info:hover{
+  background-color: rgba(82, 82, 82, 0.849);
+  color: white;
 }
 
 .btn-play {
   margin-right: 50px;
+  cursor: pointer;
+}
+.btn-play:hover{
+  background-color: rgb(228, 227, 227);
+
+}
+
+.span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+}
+
+.icons{
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
 }
 
 .outerContentContainer {
