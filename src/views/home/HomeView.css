@@ -105,7 +105,6 @@
 
 .genreContainer {
   margin: 5px 0;
-  height: 300px;
   display: flex;
   flex-direction: column;
 }
@@ -117,18 +116,35 @@
   margin: 10px 0;
 }
 .imageOuterContainer {
-  overflow-x: scroll;
-
   display: flex;
+  overflow: auto;
+  scrollbar-color: red;
 }
+.imageOuterContainer::-webkit-scrollbar {
+  background-color: transparent;
+}
+.imageOuterContainer::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: white;
+}
+
 .imageInnerContainer {
-  width: 298px;
-  height: 160px;
+  width: 250px;
+  height: 280px;
   display: flex;
-  margin: 0 3px;
+  position: relative;
+  justify-content: center;
+  margin: 10px 10px;
+}
+
+.imageInnerContainer p {
+  position: absolute;
+  text-align: center;
+  color: white;
 }
 
 .imageInnerContainer img {
   width: inherit;
   height: inherit;
+  border-radius: 12px;
 }
